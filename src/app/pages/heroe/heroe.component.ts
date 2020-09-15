@@ -39,6 +39,7 @@ export class HeroeComponent implements OnInit {
     
     if(this.heroe.id){ //Si ya fue creado
       peticion = this.heroesService.actualizarHeroe(this.heroe);
+      console.log("peticion", peticion)
       // .subscribe(resp =>{
       //     console.log(resp); //Mensage, ya fue ingresada
       // });

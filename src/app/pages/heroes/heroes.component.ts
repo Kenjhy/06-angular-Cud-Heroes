@@ -53,5 +53,36 @@ export class HeroesComponent implements OnInit {
     });
     console.log("consultarDataJsonObjec",this.heroeJsonDataObj)
   }
+  /////////////////////EJEMPLO JAROL
+  // public eleccion(){
+  //   console.log('Quiubo parce');
+  //   this.eleccionService.getEleccion().subscribe(data => {
+  //     console.log(data);
+  //     this.newEleccion.apertura = data.apertura;
+  //     this.newEleccion.cierre = data.cierre;
+  //     const myEleccion = new Promise((resolve, reject) => {
+  //       if(data.apertura == true){
+  //         resolve();
+  //         if (this.isDelegado()){
+  //           this.mostrarCeremoniaApertura = !data.apertura; //Si no se ha echo
+  //           this.mostrarCeremoniaCierre = !data.cierre; //Si no se ha echo
+    
+  //         }
+  //       } else {
+  //         reject();
+  //       }
+  //     });
+  //     myEleccion.then(() => {
+           
+  //       console.log('Aqui voy a ejecutar algo si todo esta bien');
+  //     });
+  //     myEleccion.then(() => {
+  //       console.log('Aqui voy a hacer otra cosa');
+  //     });
+  //     myEleccion.catch(() => {
+  //       console.log('Aqui voy a ejecutar si no se cumple la condicion');
+  //     });
+  //   })
+  // }
 
 }

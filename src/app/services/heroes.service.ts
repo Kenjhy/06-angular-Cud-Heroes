@@ -61,4 +61,19 @@ export class HeroesService {
     return this.http.get(`${this.URL}/heroes.json`).toPromise();
   }
 
+  ///////////EJEMPLO JAROL
+  // public getEleccionMap(): Observable<EleccionModel>{
+  //   let url = environment.URL_GET_ELECCION
+  //   console.log("getElccion",url);
+  //   return this.http.get(environment.URL_GET_ELECCION)
+  //   .pipe(
+  //     map((data: any)=>
+  //       data.map(
+  //         (item: any) =>
+  //           new EleccionModel()
+  //       )
+  //     )
+  //   );    
+  // }
+
 }
